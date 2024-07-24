@@ -64,4 +64,5 @@ button:hover{
 
 button:active{
     background-color: black;
+    color: white;
 }
