@@ -1,0 +1,67 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.966);
+    margin: 0;
+
+}
+
+.card{
+    background-color: rgb(24, 24, 24);
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+    height: 500px;
+    display: grid;
+    justify-items: center;
+
+}
+
+img{
+    width: 75px;
+    border-radius: 100px;
+
+}
+
+h2{
+    color: white;
+    margin: 5px ;
+}
+
+span{
+    color: greenyellow;
+    font-size: 13px;  
+    font-weight: 500;
+}
+
+p{
+    color: white;
+    font-size: 14px;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(41, 40, 40);
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color:  greenyellow;
+}
+
+button:active{
+    background-color: black;
+}
